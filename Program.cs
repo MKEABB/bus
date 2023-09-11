@@ -14,6 +14,7 @@ namespace bus
             {
 
                 Console.WriteLine("FUNKAREHR");
+                Console.WriteLine("HHIHIHIH");
             }
         }
     }
