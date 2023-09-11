@@ -10,7 +10,11 @@ namespace bus
     {
         static void Main(string[] args)
         {
-            //Hej lucas
+            for (int i = 0; i < 3213; i++)
+            {
+
+                Console.WriteLine("FUNKAREHR");
+            }
         }
     }
 }
