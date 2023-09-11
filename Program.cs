@@ -10,6 +10,7 @@ namespace bus
     {
         static void Main(string[] args)
         {
+            //Hej lucas
         }
     }
 }
