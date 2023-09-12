@@ -13,8 +13,7 @@ namespace bus
             for (int i = 0; i < 3213; i++)
             {
 
-                Console.WriteLine("FUNKAREHR");
-                Console.WriteLine("HHIHIHIH");
+                //gm
             }
         }
     }
