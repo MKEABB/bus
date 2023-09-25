@@ -12,8 +12,8 @@ namespace bus
         {
             for (int i = 0; i < 3213; i++)
             {
-
-                //gm
+                EnKlassFörSig.DetVarEnGångEnRiddare();
+                
             }
         }
     }
