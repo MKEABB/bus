@@ -13,6 +13,8 @@ namespace bus
             for (int i = 0; i < 3213; i++)
             {
                 EnKlassFörSig.DetVarEnGångEnRiddare();
+                EnKlassFörSig.OchEnTrollKarl();
+                EnKlassFörSig.OchDeGjordeMassaBus();
                 
             }
         }
