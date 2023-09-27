@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -11,8 +12,12 @@ namespace bus
     {
 
         public static void bus() 
-        { 
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"NININI.wav");
+        {
+            string file = "NININI.wav";
+            string path = Path.Combine(Environment.CurrentDirectory);
+            path = path.Remove(path.Length-9,9);
+            path += file;
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(path);
             player.Play();
         }
         
