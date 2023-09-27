@@ -12,17 +12,18 @@ namespace bus
         static void Main(string[] args)
         {
 
-            /*
-            for (int i = 0; i < 32173; i++)
-            {
-                EnKlassFörSig.DetVarEnGångEnRiddare();
-                EnKlassFörSig.OchEnTrollKarl();
-                EnKlassFörSig.OchDeGjordeMassaBus();
-                
-            }
-            *
-            */
-            StreamReader reader = new StreamReader(@"C:\Users\MBB\source\repos\MKEABB\bus\neareuropecities.csv");
+
+            EnKlassFörSig.bus();
+            EnKlassFörSig.DetVarEnGångEnRiddare();
+            Console.ReadLine();
+            EnKlassFörSig.bus();
+            EnKlassFörSig.OchEnTrollKarl();
+            Console.ReadLine();
+            EnKlassFörSig.bus();  
+            EnKlassFörSig.OchDeGjordeMassaBus();
+              
+            
+            StreamReader reader = new StreamReader(@"neareuropecities.csv");
 
             List<string> cities = new List<string>();
 

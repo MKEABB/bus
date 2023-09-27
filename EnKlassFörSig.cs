@@ -9,8 +9,16 @@ namespace bus
 {
     internal class EnKlassFörSig
     {
+
+        public static void bus() 
+        { 
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"NININI.wav");
+            player.Play();
+        }
+        
+        
         public static void DetVarEnGångEnRiddare()
-        {
+        {   
             Console.WriteLine(@" 
   ,^.
   |||
