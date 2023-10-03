@@ -81,14 +81,19 @@ C
         
 
     }
-    class Cool 
+    class Mikaela
     { 
         public enum Egenskaper 
             { 
-        
+                Söt,
+                Smart,
+                Snygg,
+                Stark,
+                Busig,
                 Cool,
-                tuff
-        
+                Snacksig,
+                Episk_Gamer,
+                Söt_2,
             }
     
     }

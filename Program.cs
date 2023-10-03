@@ -12,7 +12,7 @@ namespace bus
         static void Main(string[] args)
         {
 
-
+            
             EnKlassFörSig.bus();
             EnKlassFörSig.DetVarEnGångEnRiddare();
             Console.ReadLine();
