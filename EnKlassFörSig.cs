@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -9,8 +10,20 @@ namespace bus
 {
     internal class EnKlassFörSig
     {
-        public static void DetVarEnGångEnRiddare()
+
+        public static void bus() 
         {
+            string file = "NININI.wav";
+            string path = Path.Combine(Environment.CurrentDirectory);
+            path = path.Remove(path.Length-9,9);
+            path += file;
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(path);
+            player.Play();
+        }
+        
+        
+        public static void DetVarEnGångEnRiddare()
+        {   
             Console.WriteLine(@" 
   ,^.
   |||
@@ -65,6 +78,24 @@ C
             Console.ReadLine();
             }
 
+        
+
+    }
+    class Mikaela
+    { 
+        public enum Egenskaper 
+            { 
+                Söt,
+                Smart,
+                Snygg,
+                Stark,
+                Busig,
+                Cool,
+                Snacksig,
+                Episk_Gamer,
+                Söt_2,
+            }
+    
     }
 }
 
