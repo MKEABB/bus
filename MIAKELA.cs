@@ -8,6 +8,10 @@ namespace bus
 {
     internal class MIAKELA
     {
+        public void AddToCallList(List<string[]> callHistory, string number, TimeSpan timeOnCall)
+        {
+            callHistory.Add(new string[] { number, timeOnCall.ToString() });
+        }
         public void RemoveFromCallList(List<string[]> callHistory)
         {
             foreach (string[] item in callHistory)
