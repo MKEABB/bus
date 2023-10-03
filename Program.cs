@@ -55,6 +55,9 @@ namespace bus
                 Console.WriteLine("Stockholm: " + stock);
                 Console.WriteLine("Oslo: " + oslo);
                 Console.ReadKey();
+
+                
+                
             }
         }
 

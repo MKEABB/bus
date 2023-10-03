@@ -78,6 +78,19 @@ C
             Console.ReadLine();
             }
 
+        
+
+    }
+    class Cool 
+    { 
+        public enum Egenskaper 
+            { 
+        
+                Cool,
+                tuff
+        
+            }
+    
     }
 }
 
